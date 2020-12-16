@@ -1,5 +1,5 @@
 {
-  "name": "Paiol",
+  "name": "paiol",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -18,8 +18,15 @@
   },
   "homepage": "https://github.com/MaykonLacerda/Paiol#readme",
   "dependencies": {
+    "axios": "^0.21.0",
     "next": "^10.0.3",
     "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "react-dom": "^17.0.1",
+    "react-router-dom": "^5.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.14",
+    "@types/react": "^17.0.0",
+    "typescript": "^4.1.3"
   }
 }
