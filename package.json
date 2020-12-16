@@ -1,8 +1,8 @@
 {
-  "name": "paiol",
+  "name": "Paiol",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.tsx",
   "scripts": {
     "dev": "next dev"
   },
