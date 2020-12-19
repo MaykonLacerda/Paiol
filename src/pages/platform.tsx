@@ -5,7 +5,7 @@ import Aykotechlogo from '../assets/logo/ayko-logo.svg'
 import { Container } from '../styles/pages/Home'
 import { useRouter } from 'next/dist/client/router'
 
-const Home: React.FC = () => {
+const Platform: React.FC = () => {
 
     const router = useRouter()
   return (
@@ -15,10 +15,10 @@ const Home: React.FC = () => {
         <Aykotechlogo />
         <h1>Bem Vindo!</h1>
 
-        <button  onClick={() => router.replace('/platform')}>ENTRAR</button>
+        <button  onClick={() => router.replace('/')}>ENTRAR</button>
 
         </Container>
     )
   }
 
-  export default Home
+  export default Platform
