@@ -1,19 +1,23 @@
 import React from 'react'
 import Head from 'next/head'
+import { Heading, Grid, Flex, Link, Button, Text } from '@chakra-ui/core'
 
-import AykotechLogo from '../assets/logo.png'
+import Aykotechlogo from '../assets/ayko-logo.svg'
+
+import { Container } from '../styles/pages/Home'
 
 const Home: React.FC = () => {
   return (
-    <div>
+    <Container>
       <Head>
         <title>Homepage</title>
       </Head>
 
-      <main>
-        <h1>Hello World</h1>
-      </main>
-    </div>
+      <Aykotechlogo />
+      <h1>Bem Vindo!</h1>
+
+
+    </Container>
   )
 }
 
