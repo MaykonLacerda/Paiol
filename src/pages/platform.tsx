@@ -1,23 +1,30 @@
 import React from 'react'
 
-import Aykotechlogo from '../assets/logo/ayko-logo.svg'
-
-import { Container } from '../styles/pages/Home'
+import { Container } from '../styles/pages/Platform'
 import { useRouter } from 'next/dist/client/router'
 
 const Platform: React.FC = () => {
 
-    const router = useRouter()
-  return (
+  const router = useRouter()
+    return (
 
-        <Container>
+      <Container>
 
-        <Aykotechlogo />
-        <h1>Bem Vindo!</h1>
+        <div className="container">
+            <div className="topnav" id="myTopnav">
+            <a onClick={() => router.replace('/')} className="active">Home</a>
+            <a href="#news">News</a>
+            <a href="#contact">Contact</a>
+            <a href="#about">About</a>
+            <a href="javascript:void(0);" className="icon" onClick={() => router.replace('/')}>
+            <i className="fa fa-bars"></i>
+                </a>
+            </div>
 
-        <button  onClick={() => router.replace('/')}>ENTRAR</button>
+            <h1>Web Paiol</h1>
+        </div>
 
-        </Container>
+      </Container>
     )
   }
 

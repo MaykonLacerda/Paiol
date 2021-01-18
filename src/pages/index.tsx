@@ -12,10 +12,12 @@ const Home: React.FC = () => {
 
         <Container>
 
-        <Aykotechlogo />
-        <h1>Bem Vindo!</h1>
+            <Aykotechlogo />
+            <h1>Bem Vindo!</h1>
 
-        <button  onClick={() => router.replace('/platform')}>ENTRAR</button>
+            <button  onClick={() => router.replace('/platform')}>ENTRAR</button>
+
+            <h3>Contato: (37) 99872-6724</h3>
 
         </Container>
     )

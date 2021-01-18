@@ -18,6 +18,10 @@ export const Container = styled.div`
     line-height: 32px;
   }
 
+  h3 {
+      margin-top: 5%;
+  }
+
   button {
     margin: 45px;
     box-shadow:inset 0px 1px 0px 0px #276873;

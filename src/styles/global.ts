@@ -12,4 +12,9 @@ body {
   color: ${props => props.theme.colors.text};
   font: 400 16px Roboto, sans-serif;
 }
+
+a:hover {
+    color: #FFF;
+    cursor: pointer;
+}
 `;
